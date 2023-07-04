@@ -1,11 +1,15 @@
-# YoutubeSubscriber
+# Youtube-Subscriber
 
-- Backend Project From Almabetter
-- Just a Basic Backend Tutotrial where I Fetch all the Details
+- Capstone Backend Project
+- Just a Basic Backend Project where I Fetch all the Details
 
 
-- To open the App please Click to the Link.
-https://rahulyoutubesubscribers.onrender.com/
+- The weblink to deployment
+[https://youtube-subscriber.onrender.com/]
+
+## The link to the video demonstration of the project.
+- [youtube Link] - https://youtu.be/492hh4gXb4Y
+
 
 
 ## Features
@@ -19,6 +23,9 @@ https://rahulyoutubesubscribers.onrender.com/
 - Node.js
 - Express.js
 - Mongoose
+- mongoDB Atlas
+- postman
+- mongoDB compass
 - dotenv
 - Api
 - nodemon
@@ -40,12 +47,7 @@ https://rahulyoutubesubscribers.onrender.com/
 
 ## 🚀 About Me
 I'm a full stack developer...
-- Write a mail on :rkeshri522@gmail.com
-
-
-## 🔗 Links
-
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in/rahul-keshri-814bb8221/)
+- Write a mail on :pdeepak936@gmail.com
 
 
 ## Running Tests
@@ -53,17 +55,6 @@ I'm a full stack developer...
 To run tests, run the following command
 
 ```bash
-  npm run test
-```
-
-
-## Usage/Examples
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
+  npm start
 ```
 
