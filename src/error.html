@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error</title>
+  </head>
+  <style>
+    /* adding some internal css to make my errror .html filed look better  */
+    .error {
+      color: red;
+
+      display: flex;
+      justify-content: center;
+    }
+    .body { 
+      background-image: url("https://drudesk.com/sites/default/files/styles/blog_page_header_1088x520/public/2018-02/404-error-page-not-found.jpg?itok=YW-iShwf");
+
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    /* this is the media query which will handle the dynamic /responsiveness according to the screen size */
+    @media only screen and (max-width: 768px) {
+      .error {
+        text-align: center;
+        width: 100%;
+      }
+    }
+  </style>
+  <body class="body">
+    <h1 class="error">
+      Sorry No any Subscriber exists with the given Id please Check your Id
+    </h1>
+  </body>
+</html>
